@@ -1,0 +1,28 @@
+/* * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.next-heading-wr {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input {
+    width: 500px;
+    height: 46px;
+}
+
+.btv {
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: transparent;
+    width: 171px;
+    height: 40px;
+    border-radius: 5px;
+    color: #3bb77e;
+} */
