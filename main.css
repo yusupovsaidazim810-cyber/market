@@ -1130,20 +1130,13 @@ body {
 }
 
 
-html,
+/* html,
 body {
   overflow-x: hidden;
-}
+} */
 
 
-.cursor-dot {
-  position: absolute;
-  width: 5px;
-  height: 5px;
-  background: red;
-  border-radius: 50%;
-  pointer-events: none;
-}
+
 
 
 body {
@@ -1195,4 +1188,96 @@ body {
 }
 
 
-@media only screen and (min-width:375px) {}
+@media screen and (max-width:376px) {
+  .main-first-wr {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .four-main-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .g {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .food-wr-4 {
+    display: none;
+  }
+
+  .food-wr-5 {
+    display: none;
+  }
+
+  .food-wr-6 {
+    display: none;
+  }
+
+  .food-wr-7 {
+    display: none;
+  }
+
+  .food-wr-8 {
+    display: none;
+  }
+
+  .food-wr-3 {
+    display: none;
+  }
+
+  .food-wr-9 {
+    display: none;
+  }
+
+  .kotta-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .span-wr {
+    display: none;
+  }
+
+  .btn {}
+
+  .nux {
+    /* display: none; */
+  }
+
+  .uyu {
+    display: none;
+  }
+
+  .next-heading-wr {
+    display: none;
+  }
+
+  .ulo {
+    width: 5000px;
+  }
+
+  .first-heading-wr {
+    display: none;
+  }
+
+  .lop {
+    display: none;
+  }
+
+  .nuau {
+    width: 4500px;
+  }
+
+
+}
